@@ -43,7 +43,7 @@ Ao entrar nessa jornada, estamos construindo uma comunidade de compartilhamento 
 - DDL (Data Definition Language) 🏗️: Os comandos DDL são usados para criar, alterar e excluir objetos de banco de dados, como tabelas, colunas, índices, views, etc.
     - [CREATE](Script_SQL/1.Create.sql): Criar novos banco de dados e tabelas.
     - [ALTER](Script_SQL/2.Alter_Table.sql): Alterar tabelas, colunas.  
-    - [DROP](Script_SQLl/3.Drop.sql): Apagar tabelas, colunas.
+    - [DROP](Script_SQL/3.Drop.sql): Apagar tabelas, colunas.
 
 - DML (Data Manipulation Language) 🔄:  Os comandos DML são usados para inserir, atualizar, excluir e consultar dados em tabelas.
 
