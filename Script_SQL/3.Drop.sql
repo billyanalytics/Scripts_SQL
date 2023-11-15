@@ -4,4 +4,4 @@ DROP TABLE nome_da_tabela -- apaga a tabela
 
 -- Apagando coluna de uma tabela
 ALTER TABLE tabela 
-DROP COLUMN coluna; -- Apagando coluna de uma tabela
+DROP COLUMN coluna;
