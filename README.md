@@ -52,6 +52,7 @@ Ao entrar nessa jornada, estamos construindo uma comunidade de compartilhamento 
     - [DELETE](Script_SQL/6.Delete.sql): Comandos para excluir registros de tabelas.
     - [OPERADORES](Script_SQL/7.Operadores.sql): Servem para executar operações matemáticas, Muito utilizados para criar colunas calculadas.
     - [FUNÇÕES DE AGREGAÇÃO](Script_SQL/8.Funçoes_de_agregaçao.sql):Servem para executar operações aritmética nos registros de uma coluna.
+    - [GROUP BY](Script_SQL/9.Group_by.sql): Contagem agrupada de uma coluna.
     - [SELECT](Script_SQL/select.sql): Consultas SELECT para recuperar dados de tabelas.
     
 ## Contribuições
