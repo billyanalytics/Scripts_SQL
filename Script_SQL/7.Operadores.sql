@@ -1,7 +1,6 @@
 -- Operadores Aritméticos
 -- Servem para executar operações matemáticas, Muito utilizados para criar colunas calculadas
 
--- TIPOS
 -- + soma
 -- - subtração 
 -- * Multiplicação
@@ -13,7 +12,6 @@
 -- Operadores lógicos 
 -- Usados para unir expressões simples em uma composta
 
--- TIPOS
 -- AND
 -- OR
 -- NOT
@@ -24,17 +22,17 @@
 -- IS NULL
 
 SELECT coluna1, 
-	   coluna2,
-	   (coluna1 + coluna2) AS Soma
+       coluna2,
+       (coluna1 + coluna2) AS Soma
 FROM nome_tabela
 ORDER BY Soma -- Caso queira ordenar pela tabela criada
 -- ou
 SELECT coluna1
-	   (coluna3 * coluna5) AS Multiplicação
+       (coluna3 * coluna5) AS Multiplicação
 FROM nome_tabela
 -- strings
 SELECT 
-	coluna1 || ' ' || coluna2 AS "Colunas juntas"
+      coluna1 || ' ' || coluna2 AS "Colunas juntas"
 FROM nome_tabela
 
 -- like
