@@ -15,25 +15,22 @@ SELECT count ( DISTINCT coluna)
 FROM nome_tabela  
 WHERE coluna2 = 'condição'
 
--- OUTRAS FUNÇÕES ------------------------------------------------------------------
-
--- (Exemplo 4) Calcule o preço mínimo, máximo e médio dos productos da tabela products
+Calcule o mínimo, máximo e médio
 SELECT * 
-FROM sales.products 
-LIMIT 10
+FROM nome_tabela
 SELECT 
-	min(price),
-	max(price),
-	avg(price) 
-FROM sales.products p  
+	min(coluna),
+	max(coluna),
+	avg(coluna) 
+FROM nome_tabela 
 
-Informe qual é o veículo mais caro da tabela products
+Valor mais alto de uma coluna
 SELECT * 
-FROM sales.products p 
-ORDER BY price DESC 
+FROM nome_tabela 
+ORDER BY coluna DESC 
 LIMIT 1
 --ou 	   
 SELECT *
-FROM sales.products p 
-WHERE price = (SELECT max(price) FROM sales.products p)
+FROM nome_tabela
+WHERE coluna = (SELECT max(coluna) FROM nome_tabela)
 
