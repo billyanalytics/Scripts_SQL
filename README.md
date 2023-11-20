@@ -51,7 +51,7 @@ Ao entrar nessa jornada, estamos construindo uma comunidade de compartilhamento 
     - [UPDATE](Script_SQL/5.Uptade.sql): Instruções de atualização de dados em tabelas.
     - [DELETE](Script_SQL/6.Delete.sql): Comandos para excluir registros de tabelas.
     - [OPERADORES](Script_SQL/7.Operadores.sql): Servem para executar operações matemáticas, Muito utilizados para criar colunas calculadas.
-    - [fUNÇÕES DE AGREGAÇÃO](Script_SQL/8.Funçoes_de_agregaçao.sql):Servem para executar operações aritmética nos registros de uma coluna.
+    - [FUNÇÕES DE AGREGAÇÃO](Script_SQL/8.Funçoes_de_agregaçao.sql):Servem para executar operações aritmética nos registros de uma coluna.
     - [SELECT](Script_SQL/select.sql): Consultas SELECT para recuperar dados de tabelas.
     
 ## Contribuições
